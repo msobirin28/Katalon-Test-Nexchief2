@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging-chief.nexcloud.id/')
+
+WebUI.setText(findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username'), 'sobirin_qc')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'), 'PLGTm/4mhzCFv1nCPynrvg==')
+
+WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Masuk'))
+
+WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/div_Login Denied'))
+
+WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout'))
+
+WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/div_NDINestle Indonesia'))
+
+WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/div'))
+
+WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Logout from Nexchief Account'))
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Logout from Nexchief Account</name>
+   <tag></tag>
+   <elementGuidId>50e0a527-dd2b-4d24-a2d0-a7c6e7ba48bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btnlogout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnlogout']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a2cef4d0-bfda-4a2d-bd34-690cf6634a9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnlogout</value>
+      <webElementGuid>60ace57a-fffd-4fe5-9d4b-f3672d67e3c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6ae6e520-170f-4ba4-9297-a09122f95763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-default Modal_ButtonCancel__3hj-v</value>
+      <webElementGuid>f8e5ebea-99b7-4ccb-87f6-ef9c2ebae2de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout from Nexchief Account</value>
+      <webElementGuid>4d948345-aa9e-4dad-b40c-ac265f42b839</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnlogout&quot;)</value>
+      <webElementGuid>be44ab87-4f48-468c-af3a-b2fa528772eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btnlogout']</value>
+      <webElementGuid>1c2a8a85-0689-4b52-8692-a9761855fa56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Portal'])[1]/following::button[1]</value>
+      <webElementGuid>ee88d1ca-65ed-4f51-ab04-470c08ea29ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure want to logout from the application?'])[1]/following::button[2]</value>
+      <webElementGuid>c66e52e8-0796-43a0-b05f-63467b5d7595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>90396237-f91c-427b-8ac3-fb10697aefd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btnlogout' and @type = 'button' and (text() = 'Logout from Nexchief Account' or . = 'Logout from Nexchief Account')]</value>
+      <webElementGuid>08819117-5469-4e00-adbc-2f67844a1df3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
