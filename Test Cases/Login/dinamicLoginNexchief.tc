@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dinamicLoginNexchief</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7db37f7-6591-4878-a64f-e46874dc3356</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1519ec8b-dce9-4998-8c26-2e249d4d4cac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>144c21e0-f1b8-460c-bde2-1f40b3756697</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>626a8d07-9b27-43b2-9c46-352ee59d5410</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'sobirin_qc'</defaultValue>
+      <description></description>
+      <id>1519ec8b-dce9-4998-8c26-2e249d4d4cac</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing@123'</defaultValue>
+      <description></description>
+      <id>144c21e0-f1b8-460c-bde2-1f40b3756697</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'NDI'</defaultValue>
+      <description></description>
+      <id>626a8d07-9b27-43b2-9c46-352ee59d5410</id>
+      <masked>false</masked>
+      <name>principalId</name>
+   </variable>
+</TestCaseEntity>

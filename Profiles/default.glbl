@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-chief.nexcloud.id/'</initValue>
+      <name>nexchief2Url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

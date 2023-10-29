@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>principalId</name>
+   <tag></tag>
+   <elementGuidId>3d5369ad-b89f-43cf-ada6-f287d01124c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class,'Schema_Transform__12Aab')]/div/div/div[2]/div[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@class,'Schema_Transform__12Aab')]/div/div/div[2]/div[1]</value>
+      <webElementGuid>f683d144-2a38-4520-bfb1-a2179be864cb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
