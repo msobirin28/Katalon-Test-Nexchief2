@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_input_search_reason</name>
+   <tag></tag>
+   <elementGuidId>3c0b3ea3-866f-4eb9-99cf-ffb89bb1e7e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;ListReason_inputSearch__11cQt&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;ListReason_inputSearch__11cQt&quot;]</value>
+      <webElementGuid>48890843-3b98-411f-bc9e-6afb8a93eebc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

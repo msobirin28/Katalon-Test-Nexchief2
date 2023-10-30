@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_clear_search</name>
+   <tag></tag>
+   <elementGuidId>9c60de24-4ff0-4e11-865a-8cc002f42347</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;btnclear&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;btnclear&quot;]</value>
+      <webElementGuid>316b3813-32f0-48cd-a107-f770dfbfb17e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

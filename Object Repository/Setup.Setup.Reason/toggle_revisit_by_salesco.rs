@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_revisit_by_salesco</name>
+   <tag></tag>
+   <elementGuidId>c072edfd-f435-4270-a99a-f2c190e8edfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tglsalesco&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tglsalesco&quot;]</value>
+      <webElementGuid>ad5503ef-364f-41ea-ae30-65bd4497a1f6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

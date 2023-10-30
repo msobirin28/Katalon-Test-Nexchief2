@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_add_reason</name>
+   <tag></tag>
+   <elementGuidId>31a38595-d1bd-48e2-9098-4d3073bcbd97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;btnaddreason&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;btnaddreason&quot;]</value>
+      <webElementGuid>0be74245-d0ef-456f-ac82-118bc8f0bc39</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

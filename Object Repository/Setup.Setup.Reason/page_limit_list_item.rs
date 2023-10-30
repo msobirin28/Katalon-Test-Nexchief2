@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>page_limit_list_item</name>
+   <tag></tag>
+   <elementGuidId>da606819-4757-49ad-bb78-8cf51bdfc310</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class,'ant-select-item-option-content')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@class,'ant-select-item-option-content')]</value>
+      <webElementGuid>b57ee5ec-6222-4f32-a16c-67f4a6717ba1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

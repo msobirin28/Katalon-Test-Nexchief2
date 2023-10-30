@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_reason_category_detail</name>
+   <tag></tag>
+   <elementGuidId>0173236a-c799-48fe-b258-0a69e5f4582c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;lblreasoncategory&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;lblreasoncategory&quot;]</value>
+      <webElementGuid>f3e02fac-317f-4754-b3ff-9eaea962737c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

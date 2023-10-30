@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_reason_code_detail</name>
+   <tag></tag>
+   <elementGuidId>0a8d2e1f-e66a-44d9-a177-37ce7b1d6c56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;lblreasoncode&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;lblreasoncode&quot;]</value>
+      <webElementGuid>ae268cfa-d1d7-41ec-90c0-83bfc839dd31</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

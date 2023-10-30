@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_edit_detail</name>
+   <tag></tag>
+   <elementGuidId>00bfd755-dbed-4ef0-9e96-32e7e8ac33c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;btnedit&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;btnedit&quot;]</value>
+      <webElementGuid>331f84b7-0cf6-4806-a9e6-14c963632df0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

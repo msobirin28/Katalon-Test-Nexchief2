@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_reason_name_list</name>
+   <tag></tag>
+   <elementGuidId>8516b9ad-113f-4901-a42c-202729a216e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tblreason&quot;]/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tblreason&quot;]/tbody/tr/td[2]</value>
+      <webElementGuid>542a5c7f-9b40-48a6-a318-b314ff74b69c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

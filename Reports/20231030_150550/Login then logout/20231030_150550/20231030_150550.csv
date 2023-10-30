@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login then logout,Edge Chromium 118,,,2023-10-30 15:05:53,2023-10-30 15:06:20,26.514s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLoginNexchief,Edge Chromium 118,,,2023-10-30 15:05:53,2023-10-30 15:06:09,15.516s,PASSED
+handleSession = new testCase.handleSession(),Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:05:54,0.015s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:05:54,0.003s,PASSED
+username = username,Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:05:54,0.003s,PASSED
+password = password,Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:05:54,0.000s,PASSED
+principalId = principalId,Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:05:54,0.004s,PASSED
+URL = nexchief2Url,Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:05:54,0.086s,PASSED
+handleSession.initLogin(URL),Edge Chromium 118,,,2023-10-30 15:05:54,2023-10-30 15:06:01,7.187s,PASSED
+"usernameObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username"")",Edge Chromium 118,,,2023-10-30 15:06:01,2023-10-30 15:06:01,0.097s,PASSED
+"passwordObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password"")",Edge Chromium 118,,,2023-10-30 15:06:01,2023-10-30 15:06:01,0.065s,PASSED
+"buttonLogin = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Masuk"")",Edge Chromium 118,,,2023-10-30 15:06:01,2023-10-30 15:06:02,0.080s,PASSED
+"loginDeniedLabel = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/div_Login Denied"")",Edge Chromium 118,,,2023-10-30 15:06:02,2023-10-30 15:06:02,0.073s,PASSED
+"buttonKickUser = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout"")",Edge Chromium 118,,,2023-10-30 15:06:02,2023-10-30 15:06:02,0.060s,PASSED
+"principalSchemaObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/principalId"")",Edge Chromium 118,,,2023-10-30 15:06:02,2023-10-30 15:06:02,0.056s,PASSED
+"handleComponent.setInputValue(usernameObject, username)",Edge Chromium 118,,,2023-10-30 15:06:02,2023-10-30 15:06:04,1.760s,PASSED
+"handleComponent.setInputValue(passwordObject, password)",Edge Chromium 118,,,2023-10-30 15:06:04,2023-10-30 15:06:05,1.485s,PASSED
+handleComponent.singleClickComponent(buttonLogin),Edge Chromium 118,,,2023-10-30 15:06:05,2023-10-30 15:06:06,0.832s,PASSED
+"if (verifyElementPresent(loginDeniedLabel, 1, OPTIONAL))",Edge Chromium 118,,,2023-10-30 15:06:06,2023-10-30 15:06:08,2.351s,PASSED
+"handleComponent.singleClickComponentByText(principalSchemaObject, principalId)",Edge Chromium 118,,,2023-10-30 15:06:08,2023-10-30 15:06:09,0.706s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLogoutNexchief,Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:20,10.622s,PASSED
+handleSession = new testCase.handleSession(),Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:09,0.002s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:09,0.000s,PASSED
+principalId = principalId,Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:09,0.000s,PASSED
+"buttonDoor = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_door_logout"")",Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:09,0.061s,PASSED
+"buttonLogout = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief"")",Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:09,0.065s,PASSED
+"buttonBackToPortal = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal"")",Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:09,0.063s,PASSED
+"principalSchemaObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/principalId"")",Edge Chromium 118,,,2023-10-30 15:06:09,2023-10-30 15:06:10,0.054s,PASSED
+handleComponent.singleClickComponent(buttonDoor),Edge Chromium 118,,,2023-10-30 15:06:10,2023-10-30 15:06:11,1.261s,PASSED
+handleComponent.singleClickComponent(buttonBackToPortal),Edge Chromium 118,,,2023-10-30 15:06:11,2023-10-30 15:06:12,0.981s,PASSED
+"handleComponent.singleClickComponentByText(principalSchemaObject, principalId)",Edge Chromium 118,,,2023-10-30 15:06:12,2023-10-30 15:06:13,0.817s,PASSED
+handleComponent.singleClickComponent(buttonDoor),Edge Chromium 118,,,2023-10-30 15:06:13,2023-10-30 15:06:18,5.162s,PASSED
+handleComponent.singleClickComponent(buttonLogout),Edge Chromium 118,,,2023-10-30 15:06:18,2023-10-30 15:06:19,0.942s,PASSED
+closeBrowser(),Edge Chromium 118,,,2023-10-30 15:06:19,2023-10-30 15:06:20,0.798s,PASSED

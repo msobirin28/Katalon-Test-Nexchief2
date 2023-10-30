@@ -29,6 +29,7 @@ public class handleComponent {
 	@Keyword
 	def setInputValue(TestObject findTestObject, String value) {
 		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject, FailureHandling.STOP_ON_FAILURE)
 		WebUI.setText(findTestObject, value, FailureHandling.STOP_ON_FAILURE)
 	}
 
@@ -54,14 +55,35 @@ public class handleComponent {
 
 	@Keyword
 	def setToggleValue (TestObject findTestObject, String value) {
+		//value yang dapat diterima hanya Yes, No, True, False
 		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
 		String ariaCheckedValue = WebUI.getAttribute(findTestObject, 'aria-checked', FailureHandling.STOP_ON_FAILURE)
-
+		
+		//parse value ke nilai True or False
+		if (value.toLowerCase()=="yes" || value.toLowerCase()=="true") {
+			value = "True"
+		} else {
+			value = "False"
+		}
+		
+		//bandingkan nilai value dengan attribut aria-checked
 		if (ariaCheckedValue.toLowerCase() == value.toLowerCase()) {
 			println("Toggle is already set to the desired value: " + value)
 		} else {
 			WebUI.click(findTestObject, FailureHandling.STOP_ON_FAILURE)
 			println("Toggled to the value: " + value)
 		}
+	}
+	
+	@Keyword
+	def navigateToMenuByUrl(String value) {
+		WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+		WebUI.navigateToUrl(value, FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Keyword
+	def compareTextAppearWithExpectedResult (TestObject findTestObject, String value) {
+		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyElementText(findTestObject, value, FailureHandling.STOP_ON_FAILURE)
 	}
 }

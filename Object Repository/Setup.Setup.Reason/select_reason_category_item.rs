@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_reason_category_item</name>
+   <tag></tag>
+   <elementGuidId>6fedd46a-acf4-4b83-93f5-8bd5ecba8e8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class,'ant-select-item-option-content')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@class,'ant-select-item-option-content')]</value>
+      <webElementGuid>72c6e4ba-7863-4477-9425-e01785ff8b73</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

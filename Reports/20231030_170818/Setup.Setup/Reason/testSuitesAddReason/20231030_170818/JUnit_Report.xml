@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testSuitesAddReason" time="18.9" tests="2" failures="0" errors="0">
+   <testsuite name="testSuitesAddReason" tests="2" failures="0" errors="0" time="18.9" skipped="0" timestamp="2023-10-30 17:08:22" hostname="NEXSOFT - 192.168.38.2" id="Test Suites/Setup.Setup/Reason/testSuitesAddReason">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\git\\Katalon-Test-Nexchief2\\Reports\\20231030_170818\\Setup.Setup\\Reason\\testSuitesAddReason\\20231030_170818"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\git\\Katalon-Test-Nexchief2\\Reports\\20231030_170818\\Setup.Setup\\Reason\\testSuitesAddReason\\20231030_170818\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\NEXSOFT\\git\\Katalon-Test-Nexchief2\\Reports\\20231030_170818\\Setup.Setup\\Reason\\testSuitesAddReason\\20231030_170818\\1698660518421.png"/>
+         <property name="hostName" value="NEXSOFT - 192.168.38.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Edge Chromium 118"/>
+         <property name="hostAddress" value="192.168.38.2"/>
+         <property name="sessionId" value="2bd76b0bc252085cecc3200370a874fa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Session/dinamicLoginNexchief" time="16.967" classname="Test Cases/User Session/dinamicLoginNexchief" status="PASSED">
+         <system-out><![CDATA[2023-10-30 17:08:22 - [TEST_CASE][PASSED] - Test Cases/User Session/dinamicLoginNexchief: Test Cases/User Session/dinamicLoginNexchief
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - handleSession = new testCase.handleSession(): null
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - handleComponent = new component.handleComponent(): null
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - username = username: null
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - password = password: null
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - principalId = principalId: null
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - URL = nexchief2Url: null
+
+2023-10-30 17:08:23 - [TEST_STEP][PASSED] - handleSession.initLogin(URL): Navigate to 'https://staging-chief.nexcloud.id/' successfully
+
+2023-10-30 17:08:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-10-30 17:08:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 17:08:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 17:08:30 - [MESSAGE][PASSED] - Navigate to 'https://staging-chief.nexcloud.id/' successfully
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - usernameObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username"): null
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - passwordObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password"): null
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - buttonLogin = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_Masuk"): null
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - loginDeniedLabel = findTestObject("Object Repository/Login.NDI/Page_Nexchief/div_Login Denied"): null
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - buttonKickUser = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout"): null
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - principalSchemaObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/principalId"): null
+
+2023-10-30 17:08:30 - [TEST_STEP][PASSED] - handleComponent.setInputValue(usernameObject, username): Text 'sobirin_qc' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username'
+
+2023-10-30 17:08:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:08:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username' is present
+
+2023-10-30 17:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username' is clicked on
+
+2023-10-30 17:08:33 - [MESSAGE][PASSED] - Text 'sobirin_qc' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username'
+
+2023-10-30 17:08:33 - [TEST_STEP][PASSED] - handleComponent.setInputValue(passwordObject, password): Text 'Testing@123' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'
+
+2023-10-30 17:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password' is present
+
+2023-10-30 17:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password' is clicked on
+
+2023-10-30 17:08:35 - [MESSAGE][PASSED] - Text 'Testing@123' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'
+
+2023-10-30 17:08:35 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonLogin): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_Masuk' is clicked on
+
+2023-10-30 17:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_Masuk' is present
+
+2023-10-30 17:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_Masuk' is clicked on
+
+2023-10-30 17:08:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(loginDeniedLabel, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login.NDI/Page_Nexchief/div_Login Denied' located by '(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2020 NexSoft. All rights reserved.'])[1]/following::div[12]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login.NDI/Page_Nexchief/div_Login Denied' located by '(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2020 NexSoft. All rights reserved.'])[1]/following::div[12]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at dinamicLoginNexchief.run(dinamicLoginNexchief:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698660498091.run(TempTestSuite1698660498091.groovy:36)
+)
+
+2023-10-30 17:08:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2020 NexSoft. All rights reserved.'])[1]/following::div[12]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-30 17:08:38 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login.NDI/Page_Nexchief/div_Login Denied' located by '(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2020 NexSoft. All rights reserved.'])[1]/following::div[12]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login.NDI/Page_Nexchief/div_Login Denied' located by '(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2020 NexSoft. All rights reserved.'])[1]/following::div[12]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at dinamicLoginNexchief.run(dinamicLoginNexchief:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698660498091.run(TempTestSuite1698660498091.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\git\\Katalon-Test-Nexchief2\\Reports\\20231030_170818\\Setup.Setup\\Reason\\testSuitesAddReason\\20231030_170818\\1698660518421.png]]
+
+2023-10-30 17:08:38 - [TEST_STEP][PASSED] - handleComponent.singleClickComponentByText(principalSchemaObject, principalId): Object 'Object Repository/Login.NDI/Page_Nexchief/principalId' is present
+
+2023-10-30 17:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/principalId' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setup.Setup.Reason/addReasonPositifCase" time="1.448" classname="Test Cases/Setup.Setup.Reason/addReasonPositifCase" status="PASSED">
+         <system-out><![CDATA[2023-10-30 17:08:39 - [TEST_CASE][PASSED] - Test Cases/Setup.Setup.Reason/addReasonPositifCase: Test Cases/Setup.Setup.Reason/addReasonPositifCase
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - handleComponent = new component.handleComponent(): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - reasonCode = reasonCode: null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - reasonName = reasonName: null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - reasonCategory = reasonCategory: null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - reasonRevisitBySalesco = reasonRevisitBySalesco: null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - reasonMenu = reasonMenu: null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - buttonAdd = findTestObject("Object Repository/Setup.Setup.Reason/button_add_reason"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - inputReasonCode = findTestObject("Object Repository/Setup.Setup.Reason/input_reason_code"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - inputReasonName = findTestObject("Object Repository/Setup.Setup.Reason/input_reason_name"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - selectReasonCategory = findTestObject("Object Repository/Setup.Setup.Reason/select_reason_category"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - selectReasonCategoryItem = findTestObject("Object Repository/Setup.Setup.Reason/select_reason_category_item"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - toggleRevisitBySalesco = findTestObject("Object Repository/Setup.Setup.Reason/toggle_revisit_by_salesco"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - buttonCancel = findTestObject("Object Repository/Setup.Setup.Reason/button_cancel"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - buttonSave = findTestObject("Object Repository/Setup.Setup.Reason/button_save"): null
+
+2023-10-30 17:08:40 - [TEST_STEP][PASSED] - print(reasonMenu): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-30 17:08:22 - [TEST_SUITE][PASSED] - testSuitesAddReason: Test Cases/Setup.Setup.Reason/addReasonPositifCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

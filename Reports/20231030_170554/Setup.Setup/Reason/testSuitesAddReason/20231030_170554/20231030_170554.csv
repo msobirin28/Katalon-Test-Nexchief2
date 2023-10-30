@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuitesAddReason,Edge Chromium 118,,,2023-10-30 17:05:58,2023-10-30 17:06:30,31.886s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLoginNexchief,Edge Chromium 118,,,2023-10-30 17:05:59,2023-10-30 17:06:18,19.103s,PASSED
+handleSession = new testCase.handleSession(),Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:00,0.029s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:00,0.002s,PASSED
+username = username,Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:00,0.000s,PASSED
+password = password,Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:00,0.000s,PASSED
+principalId = principalId,Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:00,0.000s,PASSED
+URL = nexchief2Url,Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:00,0.109s,PASSED
+handleSession.initLogin(URL),Edge Chromium 118,,,2023-10-30 17:06:00,2023-10-30 17:06:09,9.307s,PASSED
+"usernameObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username"")",Edge Chromium 118,,,2023-10-30 17:06:09,2023-10-30 17:06:09,0.206s,PASSED
+"passwordObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password"")",Edge Chromium 118,,,2023-10-30 17:06:09,2023-10-30 17:06:10,0.116s,PASSED
+"buttonLogin = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Masuk"")",Edge Chromium 118,,,2023-10-30 17:06:10,2023-10-30 17:06:10,0.088s,PASSED
+"loginDeniedLabel = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/div_Login Denied"")",Edge Chromium 118,,,2023-10-30 17:06:10,2023-10-30 17:06:10,0.099s,PASSED
+"buttonKickUser = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout"")",Edge Chromium 118,,,2023-10-30 17:06:10,2023-10-30 17:06:10,0.086s,PASSED
+"principalSchemaObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/principalId"")",Edge Chromium 118,,,2023-10-30 17:06:10,2023-10-30 17:06:10,0.094s,PASSED
+"handleComponent.setInputValue(usernameObject, username)",Edge Chromium 118,,,2023-10-30 17:06:10,2023-10-30 17:06:12,2.263s,PASSED
+"handleComponent.setInputValue(passwordObject, password)",Edge Chromium 118,,,2023-10-30 17:06:12,2023-10-30 17:06:14,1.696s,PASSED
+handleComponent.singleClickComponent(buttonLogin),Edge Chromium 118,,,2023-10-30 17:06:14,2023-10-30 17:06:15,0.860s,PASSED
+"if (verifyElementPresent(loginDeniedLabel, 1, OPTIONAL))",Edge Chromium 118,,,2023-10-30 17:06:15,2023-10-30 17:06:16,1.511s,PASSED
+"handleComponent.singleClickComponentByText(principalSchemaObject, principalId)",Edge Chromium 118,,,2023-10-30 17:06:16,2023-10-30 17:06:18,1.648s,PASSED
+,,,,,,,
+Test Cases/Setup.Setup.Reason/addReasonPositifCase,Edge Chromium 118,,,2023-10-30 17:06:18,2023-10-30 17:06:19,1.448s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.004s,PASSED
+reasonCode = reasonCode,Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.001s,PASSED
+reasonName = reasonName,Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.000s,PASSED
+reasonCategory = reasonCategory,Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.000s,PASSED
+reasonRevisitBySalesco = reasonRevisitBySalesco,Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.000s,PASSED
+reasonMenu = reasonMenu,Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.000s,PASSED
+"buttonAdd = findTestObject(""Object Repository/Setup.Setup.Reason/button_add_reason"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.085s,PASSED
+"inputReasonCode = findTestObject(""Object Repository/Setup.Setup.Reason/input_reason_code"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.079s,PASSED
+"inputReasonName = findTestObject(""Object Repository/Setup.Setup.Reason/input_reason_name"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.100s,PASSED
+"selectReasonCategory = findTestObject(""Object Repository/Setup.Setup.Reason/select_reason_category"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.114s,PASSED
+"selectReasonCategoryItem = findTestObject(""Object Repository/Setup.Setup.Reason/select_reason_category_item"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.089s,PASSED
+"toggleRevisitBySalesco = findTestObject(""Object Repository/Setup.Setup.Reason/toggle_revisit_by_salesco"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.121s,PASSED
+"buttonCancel = findTestObject(""Object Repository/Setup.Setup.Reason/button_cancel"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.087s,PASSED
+"buttonSave = findTestObject(""Object Repository/Setup.Setup.Reason/button_save"")",Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.091s,PASSED
+print(reasonMenu),Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:19,0.000s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLogoutNexchief,Edge Chromium 118,,,2023-10-30 17:06:19,2023-10-30 17:06:30,10.876s,PASSED
+handleSession = new testCase.handleSession(),Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.004s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.000s,PASSED
+principalId = principalId,Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.000s,PASSED
+"buttonDoor = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_door_logout"")",Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.091s,PASSED
+"buttonLogout = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief"")",Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.079s,PASSED
+"buttonBackToPortal = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal"")",Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.091s,PASSED
+"principalSchemaObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/principalId"")",Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:20,0.134s,PASSED
+handleComponent.singleClickComponent(buttonDoor),Edge Chromium 118,,,2023-10-30 17:06:20,2023-10-30 17:06:21,0.818s,PASSED
+handleComponent.singleClickComponent(buttonBackToPortal),Edge Chromium 118,,,2023-10-30 17:06:21,2023-10-30 17:06:22,1.065s,PASSED
+"handleComponent.singleClickComponentByText(principalSchemaObject, principalId)",Edge Chromium 118,,,2023-10-30 17:06:22,2023-10-30 17:06:23,0.953s,PASSED
+handleComponent.singleClickComponent(buttonDoor),Edge Chromium 118,,,2023-10-30 17:06:23,2023-10-30 17:06:28,5.069s,PASSED
+handleComponent.singleClickComponent(buttonLogout),Edge Chromium 118,,,2023-10-30 17:06:28,2023-10-30 17:06:29,1.079s,PASSED
+closeBrowser(),Edge Chromium 118,,,2023-10-30 17:06:29,2023-10-30 17:06:30,0.885s,PASSED

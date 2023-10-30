@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testSuitesAddReason" time="31.886" tests="3" failures="0" errors="0">
+   <testsuite name="testSuitesAddReason" tests="3" failures="0" errors="0" time="31.886" skipped="0" timestamp="2023-10-30 17:05:58" hostname="NEXSOFT - 192.168.38.2" id="Test Suites/Setup.Setup/Reason/testSuitesAddReason">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\git\\Katalon-Test-Nexchief2\\Reports\\20231030_170554\\Setup.Setup\\Reason\\testSuitesAddReason\\20231030_170554"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\git\\Katalon-Test-Nexchief2\\Reports\\20231030_170554\\Setup.Setup\\Reason\\testSuitesAddReason\\20231030_170554\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NEXSOFT - 192.168.38.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Edge Chromium 118"/>
+         <property name="hostAddress" value="192.168.38.2"/>
+         <property name="sessionId" value="4ea5fe1263dc69985dad1b7010fe67e7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Session/dinamicLoginNexchief" time="19.103" classname="Test Cases/User Session/dinamicLoginNexchief" status="PASSED">
+         <system-out><![CDATA[2023-10-30 17:05:59 - [TEST_CASE][PASSED] - Test Cases/User Session/dinamicLoginNexchief: Test Cases/User Session/dinamicLoginNexchief
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - handleSession = new testCase.handleSession(): null
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - handleComponent = new component.handleComponent(): null
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - username = username: null
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - password = password: null
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - principalId = principalId: null
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - URL = nexchief2Url: null
+
+2023-10-30 17:06:00 - [TEST_STEP][PASSED] - handleSession.initLogin(URL): Navigate to 'https://staging-chief.nexcloud.id/' successfully
+
+2023-10-30 17:06:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-10-30 17:06:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 17:06:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 17:06:09 - [MESSAGE][PASSED] - Navigate to 'https://staging-chief.nexcloud.id/' successfully
+
+2023-10-30 17:06:09 - [TEST_STEP][PASSED] - usernameObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username"): null
+
+2023-10-30 17:06:09 - [TEST_STEP][PASSED] - passwordObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password"): null
+
+2023-10-30 17:06:10 - [TEST_STEP][PASSED] - buttonLogin = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_Masuk"): null
+
+2023-10-30 17:06:10 - [TEST_STEP][PASSED] - loginDeniedLabel = findTestObject("Object Repository/Login.NDI/Page_Nexchief/div_Login Denied"): null
+
+2023-10-30 17:06:10 - [TEST_STEP][PASSED] - buttonKickUser = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout"): null
+
+2023-10-30 17:06:10 - [TEST_STEP][PASSED] - principalSchemaObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/principalId"): null
+
+2023-10-30 17:06:10 - [TEST_STEP][PASSED] - handleComponent.setInputValue(usernameObject, username): Text 'sobirin_qc' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username'
+
+2023-10-30 17:06:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username' is present
+
+2023-10-30 17:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username' is clicked on
+
+2023-10-30 17:06:12 - [MESSAGE][PASSED] - Text 'sobirin_qc' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username'
+
+2023-10-30 17:06:12 - [TEST_STEP][PASSED] - handleComponent.setInputValue(passwordObject, password): Text 'Testing@123' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'
+
+2023-10-30 17:06:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password' is present
+
+2023-10-30 17:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password' is clicked on
+
+2023-10-30 17:06:14 - [MESSAGE][PASSED] - Text 'Testing@123' is set on object 'Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'
+
+2023-10-30 17:06:14 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonLogin): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_Masuk' is clicked on
+
+2023-10-30 17:06:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_Masuk' is present
+
+2023-10-30 17:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_Masuk' is clicked on
+
+2023-10-30 17:06:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(loginDeniedLabel, 1, OPTIONAL)): null
+
+2023-10-30 17:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/div_Login Denied' is present
+
+2023-10-30 17:06:15 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonKickUser): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout' is clicked on
+
+2023-10-30 17:06:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout' is present
+
+2023-10-30 17:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout' is clicked on
+
+2023-10-30 17:06:16 - [TEST_STEP][PASSED] - handleComponent.singleClickComponentByText(principalSchemaObject, principalId): Object 'Object Repository/Login.NDI/Page_Nexchief/principalId' is present
+
+2023-10-30 17:06:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/principalId' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setup.Setup.Reason/addReasonPositifCase" time="1.448" classname="Test Cases/Setup.Setup.Reason/addReasonPositifCase" status="PASSED">
+         <system-out><![CDATA[2023-10-30 17:06:18 - [TEST_CASE][PASSED] - Test Cases/Setup.Setup.Reason/addReasonPositifCase: Test Cases/Setup.Setup.Reason/addReasonPositifCase
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - handleComponent = new component.handleComponent(): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - reasonCode = reasonCode: null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - reasonName = reasonName: null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - reasonCategory = reasonCategory: null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - reasonRevisitBySalesco = reasonRevisitBySalesco: null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - reasonMenu = reasonMenu: null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - buttonAdd = findTestObject("Object Repository/Setup.Setup.Reason/button_add_reason"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - inputReasonCode = findTestObject("Object Repository/Setup.Setup.Reason/input_reason_code"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - inputReasonName = findTestObject("Object Repository/Setup.Setup.Reason/input_reason_name"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - selectReasonCategory = findTestObject("Object Repository/Setup.Setup.Reason/select_reason_category"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - selectReasonCategoryItem = findTestObject("Object Repository/Setup.Setup.Reason/select_reason_category_item"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - toggleRevisitBySalesco = findTestObject("Object Repository/Setup.Setup.Reason/toggle_revisit_by_salesco"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - buttonCancel = findTestObject("Object Repository/Setup.Setup.Reason/button_cancel"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - buttonSave = findTestObject("Object Repository/Setup.Setup.Reason/button_save"): null
+
+2023-10-30 17:06:19 - [TEST_STEP][PASSED] - print(reasonMenu): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Session/dinamicLogoutNexchief" time="10.876" classname="Test Cases/User Session/dinamicLogoutNexchief" status="PASSED">
+         <system-out><![CDATA[2023-10-30 17:06:19 - [TEST_CASE][PASSED] - Test Cases/User Session/dinamicLogoutNexchief: Test Cases/User Session/dinamicLogoutNexchief
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - handleSession = new testCase.handleSession(): null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - handleComponent = new component.handleComponent(): null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - principalId = principalId: null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - buttonDoor = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_door_logout"): null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - buttonLogout = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief"): null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - buttonBackToPortal = findTestObject("Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal"): null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - principalSchemaObject = findTestObject("Object Repository/Login.NDI/Page_Nexchief/principalId"): null
+
+2023-10-30 17:06:20 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonDoor): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_door_logout' is clicked on
+
+2023-10-30 17:06:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_door_logout' is present
+
+2023-10-30 17:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_door_logout' is clicked on
+
+2023-10-30 17:06:21 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonBackToPortal): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal' is clicked on
+
+2023-10-30 17:06:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal' is present
+
+2023-10-30 17:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal' is clicked on
+
+2023-10-30 17:06:22 - [TEST_STEP][PASSED] - handleComponent.singleClickComponentByText(principalSchemaObject, principalId): Object 'Object Repository/Login.NDI/Page_Nexchief/principalId' is present
+
+2023-10-30 17:06:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/principalId' is present
+
+2023-10-30 17:06:23 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonDoor): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_door_logout' is clicked on
+
+2023-10-30 17:06:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_door_logout' is present
+
+2023-10-30 17:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_door_logout' is clicked on
+
+2023-10-30 17:06:28 - [TEST_STEP][PASSED] - handleComponent.singleClickComponent(buttonLogout): Object: 'Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief' is clicked on
+
+2023-10-30 17:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 17:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief' is present
+
+2023-10-30 17:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief' is clicked on
+
+2023-10-30 17:06:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 17:06:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-30 17:05:58 - [TEST_SUITE][PASSED] - testSuitesAddReason: Test Cases/User Session/dinamicLogoutNexchief]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

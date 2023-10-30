@@ -9,4 +9,19 @@
       <initValue>'https://staging-chief.nexcloud.id/'</initValue>
       <name>nexchief2Url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sobirin_qc'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing@123'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ASW'</initValue>
+      <name>principalId</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

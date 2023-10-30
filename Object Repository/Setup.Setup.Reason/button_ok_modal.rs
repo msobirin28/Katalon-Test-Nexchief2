@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ok_modal</name>
+   <tag></tag>
+   <elementGuidId>4babb222-4798-4d62-9a42-83aaa0da5a77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;btnconfirmsuccess&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;btnconfirmsuccess&quot;]</value>
+      <webElementGuid>3a8dba50-6b15-4908-8a04-f41590e2f663</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

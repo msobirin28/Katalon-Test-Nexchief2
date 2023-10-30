@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_history_detail</name>
+   <tag></tag>
+   <elementGuidId>4f50a017-b153-4b89-876c-efaf86773f05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;btnhistory&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;btnhistory&quot;]</value>
+      <webElementGuid>126e77bf-ece9-4667-bded-f1fdf1b8c603</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

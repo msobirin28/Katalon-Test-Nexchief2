@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_reason_category</name>
+   <tag></tag>
+   <elementGuidId>bc0a5ffa-f982-4640-9eea-074b05084946</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ddlreasoncategory&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ddlreasoncategory&quot;]</value>
+      <webElementGuid>8bbba85c-cd27-45a2-b653-d148aa001b44</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

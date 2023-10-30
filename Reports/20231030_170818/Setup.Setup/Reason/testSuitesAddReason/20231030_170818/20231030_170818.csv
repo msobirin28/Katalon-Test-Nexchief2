@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuitesAddReason,Edge Chromium 118,,,2023-10-30 17:08:22,2023-10-30 17:08:40,18.900s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLoginNexchief,Edge Chromium 118,,,2023-10-30 17:08:22,2023-10-30 17:08:39,16.967s,PASSED
+handleSession = new testCase.handleSession(),Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:23,0.022s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:23,0.000s,PASSED
+username = username,Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:23,0.004s,PASSED
+password = password,Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:23,0.002s,PASSED
+principalId = principalId,Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:23,0.000s,PASSED
+URL = nexchief2Url,Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:23,0.117s,PASSED
+handleSession.initLogin(URL),Edge Chromium 118,,,2023-10-30 17:08:23,2023-10-30 17:08:30,6.997s,PASSED
+"usernameObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username"")",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:30,0.146s,PASSED
+"passwordObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password"")",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:30,0.100s,PASSED
+"buttonLogin = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Masuk"")",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:30,0.078s,PASSED
+"loginDeniedLabel = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/div_Login Denied"")",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:30,0.072s,PASSED
+"buttonKickUser = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout"")",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:30,0.089s,PASSED
+"principalSchemaObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/principalId"")",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:30,0.074s,PASSED
+"handleComponent.setInputValue(usernameObject, username)",Edge Chromium 118,,,2023-10-30 17:08:30,2023-10-30 17:08:33,2.446s,PASSED
+"handleComponent.setInputValue(passwordObject, password)",Edge Chromium 118,,,2023-10-30 17:08:33,2023-10-30 17:08:35,1.738s,PASSED
+handleComponent.singleClickComponent(buttonLogin),Edge Chromium 118,,,2023-10-30 17:08:35,2023-10-30 17:08:36,0.961s,PASSED
+"if (verifyElementPresent(loginDeniedLabel, 1, OPTIONAL))",Edge Chromium 118,,,2023-10-30 17:08:36,2023-10-30 17:08:38,2.509s,PASSED
+"handleComponent.singleClickComponentByText(principalSchemaObject, principalId)",Edge Chromium 118,,,2023-10-30 17:08:38,2023-10-30 17:08:39,0.837s,PASSED
+,,,,,,,
+Test Cases/Setup.Setup.Reason/addReasonPositifCase,Edge Chromium 118,,,2023-10-30 17:08:39,2023-10-30 17:08:40,1.448s,PASSED
+handleComponent = new component.handleComponent(),Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.000s,PASSED
+reasonCode = reasonCode,Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.002s,PASSED
+reasonName = reasonName,Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.000s,PASSED
+reasonCategory = reasonCategory,Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.000s,PASSED
+reasonRevisitBySalesco = reasonRevisitBySalesco,Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.000s,PASSED
+reasonMenu = reasonMenu,Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.003s,PASSED
+"buttonAdd = findTestObject(""Object Repository/Setup.Setup.Reason/button_add_reason"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.070s,PASSED
+"inputReasonCode = findTestObject(""Object Repository/Setup.Setup.Reason/input_reason_code"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.083s,PASSED
+"inputReasonName = findTestObject(""Object Repository/Setup.Setup.Reason/input_reason_name"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.085s,PASSED
+"selectReasonCategory = findTestObject(""Object Repository/Setup.Setup.Reason/select_reason_category"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.083s,PASSED
+"selectReasonCategoryItem = findTestObject(""Object Repository/Setup.Setup.Reason/select_reason_category_item"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.091s,PASSED
+"toggleRevisitBySalesco = findTestObject(""Object Repository/Setup.Setup.Reason/toggle_revisit_by_salesco"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.111s,PASSED
+"buttonCancel = findTestObject(""Object Repository/Setup.Setup.Reason/button_cancel"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.089s,PASSED
+"buttonSave = findTestObject(""Object Repository/Setup.Setup.Reason/button_save"")",Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.082s,PASSED
+print(reasonMenu),Edge Chromium 118,,,2023-10-30 17:08:40,2023-10-30 17:08:40,0.000s,PASSED
