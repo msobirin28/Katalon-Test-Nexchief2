@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_input_search_reason_item</name>
+   <tag></tag>
+   <elementGuidId>39986b56-4db2-438e-bf5d-92f6c0dcb164</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div/div</value>
+      <webElementGuid>02c22909-30a9-48e8-bf3c-2922d7bb23ac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

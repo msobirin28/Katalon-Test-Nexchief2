@@ -82,8 +82,15 @@ public class handleComponent {
 	}
 	
 	@Keyword
-	def compareTextAppearWithExpectedResult (TestObject findTestObject, String value) {
+	def compareObjectTextByText (TestObject findTestObject, String value) {
 		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementText(findTestObject, value, FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Keyword
+	def searchDataUsingInputSearchByText (TestObject inputSearch, TestObject listSearchItem, String value) {
+		singleClickComponent(inputSearch)
+		setInputValue(inputSearch, value)
+		singleClickComponentByText(listSearchItem, value)
 	}
 }

@@ -36,40 +36,31 @@ String reasonName = reasonName
 String reasonCategory = reasonCategory
 String reasonRevisitBySalesco = reasonRevisitBySalesco
 String reasonMenu = reasonMenu
-String expectedResult1 = expectedResult1
-String expectedResult2 = expectedResult2
 
 //object declaration
-def buttonAdd = findTestObject('Object Repository/Setup.Setup.Reason/button_add_reason')
-def inputReasonCode = findTestObject('Object Repository/Setup.Setup.Reason/input_reason_code')
-def inputReasonName = findTestObject('Object Repository/Setup.Setup.Reason/input_reason_name')
-def selectReasonCategory = findTestObject('Object Repository/Setup.Setup.Reason/select_reason_category')
-def selectReasonCategoryItem = findTestObject('Object Repository/Setup.Setup.Reason/select_reason_category_item')
-def toggleRevisitBySalesco = findTestObject('Object Repository/Setup.Setup.Reason/toggle_revisit_by_salesco')
-def buttonCancel = findTestObject('Object Repository/Setup.Setup.Reason/button_cancel')
-def buttonSave = findTestObject('Object Repository/Setup.Setup.Reason/button_save')
-def modalsSuccessTitle = findTestObject('Object Repository/Setup.Setup.Reason/label_success')
-def modalsSuccessSubTitle = findTestObject('Object Repository/Setup.Setup.Reason/label_success_sub_title')
-def buttonOkModal = findTestObject('Object Repository/Setup.Setup.Reason/button_ok_modal')
+def inputSearch = findTestObject('Object Repository/Setup.Setup.Reason/list_input_search_reason')
+def clearSearch = findTestObject('Object Repository/Setup.Setup.Reason/button_clear_search')
+def listSearchItem = findTestObject('Object Repository/Setup.Setup.Reason/list_input_search_reason_item')
+def buttonDetailIcon = findTestObject('Object Repository/Setup.Setup.Reason/button_detail_icon')
+def labelReasonCodeList = findTestObject('Object Repository/Setup.Setup.Reason/label_reason_code_list')
+def labelReasonCodeDetail = findTestObject('Object Repository/Setup.Setup.Reason/label_reason_code_detail')
+def labelReasonNameDetail = findTestObject('Object Repository/Setup.Setup.Reason/label_reason_name_detail')
+def labelReasonCategoryDetail = findTestObject('Object Repository/Setup.Setup.Reason/label_reason_category_detail')
+def labelRevisitBySalescoDetail = findTestObject('Object Repository/Setup.Setup.Reason/label_revisit_by_salesco_detail')
+def buttonBackToList = findTestObject('Object Repository/Setup.Setup.Reason/button_back_to_list')
 
 //login to nexchief (sementara)
 handleSession.initLogin(nexchiefUrl)
 handleSession.loginUser(username, password, principalId)
 
-//test case add reason
+//test case view detail
 handleComponent.navigateToMenuByUrl(reasonMenu)
-handleComponent.singleClickComponent(buttonAdd)
-handleComponent.setInputValue(inputReasonCode, reasonCode)
-handleComponent.setInputValue(inputReasonName, reasonName)
-handleComponent.singleClickComponent(selectReasonCategory)
-handleComponent.singleClickComponentByText(selectReasonCategoryItem, reasonCategory)
-handleComponent.setToggleValue(toggleRevisitBySalesco, reasonRevisitBySalesco)
-handleComponent.singleClickComponent(buttonSave)
-
-//pengecekkan sukses tambah data
-handleComponent.compareObjectTextByText(modalsSuccessTitle, expectedResult1)
-handleComponent.compareObjectTextByText(modalsSuccessSubTitle, expectedResult2)
-handleComponent.singleClickComponent(buttonOkModal)
+handleComponent.searchDataUsingInputSearchByText(inputSearch, listSearchItem, reasonCode)
+handleComponent.singleClickComponent(buttonDetailIcon)
+handleComponent.compareObjectTextByText(labelReasonCodeDetail, reasonCode)
+handleComponent.compareObjectTextByText(labelReasonNameDetail, reasonName)
+handleComponent.compareObjectTextByText(labelReasonCategoryDetail, reasonName)
+handleComponent.compareObjectTextByText(labelRevisitBySalescoDetail, reasonRevisitBySalesco)
 
 //logout from nexchief (sementara)
 handleSession.logoutuser()

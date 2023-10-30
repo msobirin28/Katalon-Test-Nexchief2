@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://staging-chief.nexcloud.id/')
 
 WebUI.setText(findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username'), 'sobirin_qc')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'), 'PLGTm/4mhzCFv1nCPynrvg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password'), 'PLGTm/4mhzCFv1nCPynrvg==')s
 
 WebUI.click(findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Masuk'))
 

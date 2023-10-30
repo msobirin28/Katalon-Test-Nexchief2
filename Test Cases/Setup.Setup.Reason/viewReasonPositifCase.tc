@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>addReasonPositifCase</name>
+   <name>viewReasonPositifCase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b6315652-42d3-44f0-b240-9025f3adf7f4</testCaseGuid>
+   <testCaseGuid>33dd3862-8116-4778-b608-7cac3736db0a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -35,18 +35,6 @@
       <value></value>
       <variableId>fc42cdcd-ea3e-471c-92a1-abe5418618f8</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e73277a0-668e-4949-97ff-657b89cb4248</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6edd4219-5f3c-490f-9468-59a0fe5a4824</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'testCode'</defaultValue>
       <description></description>
@@ -69,7 +57,7 @@
       <name>reasonCategory</name>
    </variable>
    <variable>
-      <defaultValue>'True'</defaultValue>
+      <defaultValue>'Yes'</defaultValue>
       <description></description>
       <id>f5013a6c-85cd-44b1-8f83-cdcf16931bdf</id>
       <masked>false</masked>
@@ -81,19 +69,5 @@
       <id>fc42cdcd-ea3e-471c-92a1-abe5418618f8</id>
       <masked>false</masked>
       <name>reasonMenu</name>
-   </variable>
-   <variable>
-      <defaultValue>'Success'</defaultValue>
-      <description></description>
-      <id>e73277a0-668e-4949-97ff-657b89cb4248</id>
-      <masked>false</masked>
-      <name>expectedResult1</name>
-   </variable>
-   <variable>
-      <defaultValue>'Your data was successfully added!'</defaultValue>
-      <description></description>
-      <id>6edd4219-5f3c-490f-9468-59a0fe5a4824</id>
-      <masked>false</masked>
-      <name>expectedResult2</name>
    </variable>
 </TestCaseEntity>
