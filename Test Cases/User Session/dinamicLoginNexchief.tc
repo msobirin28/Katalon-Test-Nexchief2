@@ -38,7 +38,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'NDI'</defaultValue>
+      <defaultValue>'INA'</defaultValue>
       <description></description>
       <id>626a8d07-9b27-43b2-9c46-352ee59d5410</id>
       <masked>false</masked>

@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import testCase.handleSession as handleSession
+import component.handleComponent as handleComponent
 
 //declaration keyword
 def handleSession = new handleSession()
+def handleComponent = new handleComponent()
 
 //deklarasi variable
 String username = username
@@ -30,6 +32,21 @@ String principalId = principalId
 
 String URL = GlobalVariable.nexchief2Url
 
-//login
+////login
 handleSession.initLogin(URL)
-handleSession.loginUser(username, password, principalId)
+//handleSession.loginUser(username, password, principalId)
+
+def usernameObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username')
+def passwordObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password')
+def buttonLogin = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Masuk')
+def loginDeniedLabel = findTestObject('Object Repository/Login.NDI/Page_Nexchief/div_Login Denied')
+def buttonKickUser = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout')
+def principalSchemaObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/principalId')
+
+handleComponent.setInputValue(usernameObject, username)
+handleComponent.setInputValue(passwordObject, password)
+handleComponent.singleClickComponent(buttonLogin)
+if(WebUI.verifyElementPresent(loginDeniedLabel, 1, FailureHandling.OPTIONAL)) {
+	handleComponent.singleClickComponent(buttonKickUser)
+}
+handleComponent.singleClickComponentByText(principalSchemaObject, principalId)

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login then logout,,,,2023-10-30 14:00:46,2023-10-30 14:00:55,9.835s,FAILED
+,,,,,,,
+Test Cases/User Session/dinamicLoginNexchief,,,,2023-10-30 14:00:46,2023-10-30 14:00:54,7.484s,FAILED
+handleSession = new testCase.handleSession(),,,,2023-10-30 14:00:47,2023-10-30 14:00:47,0.039s,PASSED
+handleComponent = new component.handleComponent(),,,,2023-10-30 14:00:47,2023-10-30 14:00:47,0.002s,PASSED
+username = username,,,,2023-10-30 14:00:47,2023-10-30 14:00:47,0.002s,PASSED
+password = password,,,,2023-10-30 14:00:47,2023-10-30 14:00:47,0.000s,PASSED
+principalId = principalId,,,,2023-10-30 14:00:47,2023-10-30 14:00:47,0.000s,PASSED
+URL = nexchief2Url,,,,2023-10-30 14:00:47,2023-10-30 14:00:47,0.168s,PASSED
+handleSession.initLogin(URL),,,,2023-10-30 14:00:47,2023-10-30 14:00:53,6.246s,FAILED
+,,,,,,,
+Test Cases/User Session/dinamicLogoutNexchief,,,,2023-10-30 14:00:54,2023-10-30 14:00:55,1.830s,FAILED
+handleSession = new testCase.handleSession(),,,,2023-10-30 14:00:55,2023-10-30 14:00:55,0.004s,PASSED
+handleComponent = new component.handleComponent(),,,,2023-10-30 14:00:55,2023-10-30 14:00:55,0.002s,PASSED
+"buttonDoor = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/div"")",,,,2023-10-30 14:00:55,2023-10-30 14:00:55,0.287s,PASSED
+"buttonLogout = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Logout from Nexchief Account"")",,,,2023-10-30 14:00:55,2023-10-30 14:00:55,0.248s,PASSED
+handleComponent.singleClickComponent(buttonDoor),,,,2023-10-30 14:00:55,2023-10-30 14:00:55,0.235s,FAILED

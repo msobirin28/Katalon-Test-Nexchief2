@@ -36,16 +36,36 @@ public class handleSession {
 		def usernameObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username')
 		def passwordObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password')
 		def buttonLogin = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Masuk')
-		def loginDenied = findTestObject('Object Repository/Login.NDI/Page_Nexchief/div_Login Denied')
-		def btnKickUser = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout')
-		def principalSchema = findTestObject('Object Repository/Login.NDI/Page_Nexchief/principalId')
+		def loginDeniedLabel = findTestObject('Object Repository/Login.NDI/Page_Nexchief/div_Login Denied')
+		def buttonKickUser = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout')
+		def principalSchemaObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/principalId')
 		
 		handleComponent.setInputValue(usernameObject, username)
 		handleComponent.setInputValue(passwordObject, password)
 		handleComponent.singleClickComponent(buttonLogin)
-		if(WebUI.verifyElementPresent(loginDenied, 0, FailureHandling.CONTINUE_ON_FAILURE)) {
-			handleComponent.singleClickComponent(btnKickUser)
+		if(WebUI.verifyElementPresent(loginDeniedLabel, 1, FailureHandling.OPTIONAL)) {
+			handleComponent.singleClickComponent(buttonKickUser)
 		}
-		handleComponent.singleClickComponentByText(principalSchema, principalId)
+		handleComponent.singleClickComponentByText(principalSchemaObject, principalId)
+	}
+	
+	@Keyword
+	def logoutuser() {
+		def buttonDoor = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_door_logout')
+		def buttonLogout = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief')
+		
+		handleComponent.singleClickComponent(buttonDoor)
+		handleComponent.singleClickComponent(buttonLogout)
+	}
+	
+	@Keyword
+	def changeSchema(String principalId) {
+		def buttonDoor = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_door_logout')
+		def buttonBackToPortal = findTestObject('Object Repository/Login.NDI/Page_Nexchief/button_back_to_portal')
+		def principalSchemaObject = findTestObject('Object Repository/Login.NDI/Page_Nexchief/principalId')
+		
+		handleComponent.singleClickComponent(buttonDoor)
+		handleComponent.singleClickComponent(buttonBackToPortal)
+		handleComponent.singleClickComponentByText(principalSchemaObject, principalId)
 	}
 }

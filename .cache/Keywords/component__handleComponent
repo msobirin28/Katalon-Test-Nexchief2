@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "87F321EE188ABA64EED2376DEA546F9C",
+  "keywordFileContentHash": "CB1584736C5A332F97079555694994D5",
   "keywordClasses": [
     {
       "name": "component.handleComponent",
@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "singleClickComponent",
@@ -51,7 +52,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "singleClickComponentByText",
@@ -82,7 +84,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setToggleValue",
@@ -113,10 +116,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "42CF78DC95EDA2C6A5BBF02EB9C2C8A0",
+  "keywordFileContentHash": "632332194035BC9AAC4A847A56294463",
   "keywordClasses": [
     {
       "name": "testCase.handleSession",
@@ -51,6 +51,28 @@
                 "errorOnParsing": false
               }
             },
+            {
+              "name": "principalId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "logoutuser",
+          "parameters": []
+        },
+        {
+          "name": "changeSchema",
+          "parameters": [
             {
               "name": "principalId",
               "initialExpression": "",

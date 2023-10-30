@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login then logout,Firefox 119.0,,,2023-10-30 13:56:37,2023-10-30 13:58:58,2m - 21.420s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLoginNexchief,Firefox 119.0,,,2023-10-30 13:56:37,2023-10-30 13:56:56,18.811s,PASSED
+handleSession = new testCase.handleSession(),Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:38,0.031s,PASSED
+handleComponent = new component.handleComponent(),Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:38,0.003s,PASSED
+username = username,Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:38,0.003s,PASSED
+password = password,Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:38,0.000s,PASSED
+principalId = principalId,Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:38,0.000s,PASSED
+URL = nexchief2Url,Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:38,0.120s,PASSED
+handleSession.initLogin(URL),Firefox 119.0,,,2023-10-30 13:56:38,2023-10-30 13:56:49,10.787s,PASSED
+"usernameObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_username"")",Firefox 119.0,,,2023-10-30 13:56:49,2023-10-30 13:56:49,0.161s,PASSED
+"passwordObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/input_Selamat Datang_password"")",Firefox 119.0,,,2023-10-30 13:56:49,2023-10-30 13:56:49,0.094s,PASSED
+"buttonLogin = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Masuk"")",Firefox 119.0,,,2023-10-30 13:56:49,2023-10-30 13:56:49,0.135s,PASSED
+"loginDeniedLabel = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/div_Login Denied"")",Firefox 119.0,,,2023-10-30 13:56:49,2023-10-30 13:56:49,0.112s,PASSED
+"buttonKickUser = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_Yes, Logout"")",Firefox 119.0,,,2023-10-30 13:56:49,2023-10-30 13:56:50,0.092s,PASSED
+"principalSchemaObject = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/principalId"")",Firefox 119.0,,,2023-10-30 13:56:50,2023-10-30 13:56:50,0.091s,PASSED
+"handleComponent.setInputValue(usernameObject, username)",Firefox 119.0,,,2023-10-30 13:56:50,2023-10-30 13:56:51,1.081s,PASSED
+"handleComponent.setInputValue(passwordObject, password)",Firefox 119.0,,,2023-10-30 13:56:51,2023-10-30 13:56:52,1.198s,PASSED
+handleComponent.singleClickComponent(buttonLogin),Firefox 119.0,,,2023-10-30 13:56:52,2023-10-30 13:56:53,1.129s,PASSED
+"if (verifyElementPresent(loginDeniedLabel, 1, OPTIONAL))",Firefox 119.0,,,2023-10-30 13:56:53,2023-10-30 13:56:55,2.159s,PASSED
+"handleComponent.singleClickComponentByText(principalSchemaObject, principalId)",Firefox 119.0,,,2023-10-30 13:56:55,2023-10-30 13:56:56,0.816s,PASSED
+,,,,,,,
+Test Cases/User Session/dinamicLogoutNexchief,Firefox 119.0,,,2023-10-30 13:56:56,2023-10-30 13:58:58,2m - 2.197s,PASSED
+handleSession = new testCase.handleSession(),Firefox 119.0,,,2023-10-30 13:56:57,2023-10-30 13:56:57,0.000s,PASSED
+handleComponent = new component.handleComponent(),Firefox 119.0,,,2023-10-30 13:56:57,2023-10-30 13:56:57,0.000s,PASSED
+"buttonDoor = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_door_logout"")",Firefox 119.0,,,2023-10-30 13:56:57,2023-10-30 13:56:57,0.096s,PASSED
+"buttonLogout = findTestObject(""Object Repository/Login.NDI/Page_Nexchief/button_logout_from_nexchief"")",Firefox 119.0,,,2023-10-30 13:56:57,2023-10-30 13:56:57,0.099s,PASSED
+handleComponent.singleClickComponent(buttonDoor),Firefox 119.0,,,2023-10-30 13:56:57,2023-10-30 13:57:58,1m - 0.799s,PASSED
+handleComponent.singleClickComponent(buttonLogout),Firefox 119.0,,,2023-10-30 13:57:58,2023-10-30 13:58:58,1m - 0.698s,PASSED

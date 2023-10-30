@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_back_to_portal</name>
+   <tag></tag>
+   <elementGuidId>376d6e69-4e30-4048-b8ec-091314bcd3a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id,'btnbacktoportal')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@id,'btnbacktoportal')]</value>
+      <webElementGuid>53a9b2c0-2c4a-4473-9197-02644bf8433b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

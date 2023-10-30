@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dinamicLogoutNexchief</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d754c89-25e1-4555-bcf6-98bd28dfebe1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c8378e6-017d-44ba-980f-700921894281</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ASW'</defaultValue>
+      <description></description>
+      <id>2c8378e6-017d-44ba-980f-700921894281</id>
+      <masked>false</masked>
+      <name>principalId</name>
+   </variable>
+</TestCaseEntity>

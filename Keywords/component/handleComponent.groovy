@@ -25,23 +25,24 @@ import org.openqa.selenium.WebElement
 import internal.GlobalVariable
 
 public class handleComponent {
-	
+
 	@Keyword
 	def setInputValue(TestObject findTestObject, String value) {
 		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
 		WebUI.setText(findTestObject, value, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	def singleClickComponent(TestObject findTestObject) {
 		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	def singleClickComponentByText(TestObject findTestObject, String value) {
+		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
 		List<WebElement> elements = WebUI.findWebElements(findTestObject, 10)
-		
+
 		for (WebElement element : elements) {
 			String text = element.getText()
 			if (text == value) {
@@ -50,11 +51,12 @@ public class handleComponent {
 			}
 		}
 	}
-	
+
 	@Keyword
 	def setToggleValue (TestObject findTestObject, String value) {
+		WebUI.verifyElementPresent(findTestObject, 0, FailureHandling.STOP_ON_FAILURE)
 		String ariaCheckedValue = WebUI.getAttribute(findTestObject, 'aria-checked', FailureHandling.STOP_ON_FAILURE)
-		
+
 		if (ariaCheckedValue.toLowerCase() == value.toLowerCase()) {
 			println("Toggle is already set to the desired value: " + value)
 		} else {
